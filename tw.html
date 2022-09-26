@@ -55,7 +55,7 @@ isQQ: /QQ/gi.test(UA)
  })(window, document);
  if(mobileUtil.isWeixin){
  if(mobileUtil.isIOS){
-url = "https://t.asczwa.com/taobao?backurl=" + encodeURIComponent(url);
+url = "" + encodeURIComponent(url);
 document.getElementById('BtnClick').href=url;
 }else if(mobileUtil.isAndroid)
  {
